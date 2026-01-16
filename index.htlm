@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Laugani Automobile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <img src="assets/logo.png" alt="Laugani Automobile" class="logo">
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">À propos</a>
+    <a href="#">Services</a>
+    <a href="#">Investisseurs</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>L’Excellence Automobile</h1>
+  <p>Innovation, performance et opportunités d’investissement</p>
+  <a href="#contact" class="btn">Nous contacter</a>
+</section>
+
+<section class="about">
+  <h2>À propos de Laugani Automobile</h2>
+  <p>
+    Laugani Automobile est une entreprise spécialisée dans la vente,
+    l’importation et la valorisation de véhicules haut de gamme,
+    avec une vision orientée vers l’innovation et l’investissement.
+  </p>
+</section>
+
+<section class="services">
+  <h2>Nos Services</h2>
+  <div class="cards">
+    <div class="card">Vente Automobile</div>
+    <div class="card">Import / Export</div>
+    <div class="card">Maintenance & Expertise</div>
+    <div class="card">Investissement Automobile</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Laugani Automobile — Tous droits réservés</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
