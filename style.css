@@ -1,99 +1,63 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(180deg, #0f172a, #020617);
-    color: #111;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
 }
 
-/* NAVBAR */
 nav {
-    background: rgba(2,6,23,0.9);
-    padding: 18px;
+    background-color: #0f172a;
+    padding: 15px;
     text-align: center;
-    position: sticky;
-    top: 0;
 }
 
 nav a {
-    color: #e5e7eb;
-    margin: 0 18px;
+    color: white;
+    margin: 0 15px;
     text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: #38bdf8;
+    text-decoration: underline;
 }
 
-/* CONTAINER */
 .container {
-    max-width: 1000px;
-    margin: 80px auto;
     background: white;
-    padding: 60px;
-    border-radius: 18px;
-    box-shadow: 0 40px 80px rgba(0,0,0,0.25);
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-/* TITRES */
 h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #020617;
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
+    color: #555;
 }
 
-/* TEXTE */
-p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 18px;
-}
-
-/* SERVICES */
-ul {
+.services {
     list-style: none;
-    margin-top: 30px;
+    padding: 0;
 }
 
-li {
-    padding: 20px;
-    margin-bottom: 15px;
-    background: #f1f5f9;
-    border-radius: 12px;
-    font-weight: 500;
+.services li {
+    margin-bottom: 20px;
 }
 
-/* HERO */
-.hero {
-    text-align: center;
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #0f172a;
     color: white;
-    padding: 120px 20px 80px;
+    text-decoration: none;
+    border-radius: 6px;
 }
 
-.hero h1 {
-    color: white;
-    font-size: 4rem;
-}
-
-.hero p {
-    font-size: 1.3rem;
-    color: #cbd5f5;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    color: #94a3b8;
-    padding: 40px;
+.btn:hover {
+    background-color: #1e293b;
 }
